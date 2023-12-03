@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    background: rgba(147, 206, 222, 1);
+    background: -moz-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(127, 194, 213, 0.97) 38%, rgba(117, 189, 209, 0.97) 56%, rgba(73, 165, 191, 0.97) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147, 206, 222, 1)), color-stop(38%, rgba(127, 194, 213, 0.97)), color-stop(56%, rgba(117, 189, 209, 0.97)), color-stop(100%, rgba(73, 165, 191, 0.97)));
+    background: -webkit-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(127, 194, 213, 0.97) 38%, rgba(117, 189, 209, 0.97) 56%, rgba(73, 165, 191, 0.97) 100%);
+    background: -o-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(127, 194, 213, 0.97) 38%, rgba(117, 189, 209, 0.97) 56%, rgba(73, 165, 191, 0.97) 100%);
+    background: -ms-linear-gradient(left, rgba(147, 206, 222, 1) 0%, rgba(127, 194, 213, 0.97) 38%, rgba(117, 189, 209, 0.97) 56%, rgba(73, 165, 191, 0.97) 100%);
+    background: linear-gradient(to right, rgba(147, 206, 222, 1) 0%, rgba(127, 194, 213, 0.97) 38%, rgba(117, 189, 209, 0.97) 56%, rgba(73, 165, 191, 0.97) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1);
+
+}
+
+.portada {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 97);
+}
+
+.logo {
+    width: 80px;
+}
+
+h1 {
+    color: rgb(255, 255, 240);
+    font-size: 3rem;
+}
+
+.listas {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+li:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.navegacion {
+    background-color: rgb(20, 20, 97);
+    color: rgb(255, 255, 240);
+}
+
+img {
+    width: 250px;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.sombreado {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    max-height: 260px;
+}
+
+.pieDePagina {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: rgb(255, 255, 240);
+    background-color: rgb(20, 20, 97);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+.letra {
+    font-size: 1.5rem;
+}
+
+.comprar {
+    height: 2rem;
+    background-color: chartreuse;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main {
+    height: 800px;
+}
